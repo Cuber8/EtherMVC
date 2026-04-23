@@ -1,0 +1,59 @@
+{
+  "bindingvow": {
+    "version": "1.0.0",
+    "name": "BindingVow - Password-Protected App System",
+    "description": "Custom encryption for password-protected application copying and retrieval",
+    "author": "EtherMVC Framework",
+
+    "features": {
+      "secure_copying": {
+        "enabled": true,
+        "description": "Create password-protected application copies"
+      },
+      "password_retrieval": {
+        "enabled": true,
+        "description": "Retrieve apps via CMD with password verification"
+      },
+      "custom_encryption": {
+        "enabled": true,
+        "description": "PBKDF2 + AES-256-GCM custom encryption"
+      },
+      "vault_management": {
+        "enabled": true,
+        "description": "Manage encrypted application vaults"
+      },
+      "app_wide_encryption": {
+        "enabled": false,
+        "description": "Can be enabled for personal encryption of entire app"
+      }
+    },
+
+    "encryption": {
+      "algorithm": "PBKDF2-SHA256 + AES-256-CBC",
+      "key_derivation": "PBKDF2",
+      "iterations": 10000,
+      "salt_length_bytes": 16,
+      "key_length_bytes": 32
+    },
+
+    "vault": {
+      "location": "System.Temp/BindingVow_Vault",
+      "auto_cleanup": false,
+      "retention_days": 365,
+      "backup_enabled": true
+    },
+
+    "cli": {
+      "retrieve_command": "bindingvow retrieve [vaultId] [password]",
+      "copy_command": "bindingvow copy [sourcePath] [destinationPath] [password]",
+      "list_command": "bindingvow list"
+    },
+
+    "security": {
+      "require_password": true,
+      "min_password_length": 6,
+      "session_timeout_minutes": 30,
+      "max_attempts": 3
+    }
+  }
+}

@@ -1,0 +1,2 @@
+C:\Users\Kazuma\Desktop\EtherMVC\bin\Release\net6.0\win-x64\publish\EtherMVC.pdb
+C:\Users\Kazuma\Desktop\EtherMVC\bin\Release\net6.0\win-x64\publish\EtherMVC.exe

@@ -1,0 +1,65 @@
+// Example encrypted JSON database file
+// This demonstrates how data is stored in EtherMVC with Chimera encryption
+
+{
+  "metadata": {
+    "schema": "users",
+    "encrypted": true,
+    "encryptionMethod": "AES-256",
+    "created": "2026-04-20T00:00:00Z",
+    "updated": "2026-04-20T00:00:00Z",
+    "records": 0
+  },
+  "records": []
+}
+
+/*
+USAGE NOTES:
+
+1. FIELD ENCRYPTION
+   - Fields marked as 'encrypted: true' in schema are encrypted
+   - Example sensitive fields: password, email, apikey, ssn
+   - Non-encrypted fields: id, created_at, status (for indexing)
+
+2. FIELD NAME ENCRYPTION
+   - When enabled, field names are stored as hex-encoded values
+   - Provides additional security layer
+   - Requires schema for decryption
+
+3. ACCESSING DATA
+   - Always use ChimeraDB methods to read/write data
+   - Never access raw files directly
+   - Use decrypt() method to retrieve encrypted values
+
+4. EXAMPLE OPERATIONS:
+
+   // Create schema
+   const db = new ChimeraDB();
+   db.createSchema('users', {
+       id: { type: 'string', encrypted: false },
+       name: { type: 'string', encrypted: false },
+       email: { type: 'string', encrypted: true },
+       password: { type: 'string', encrypted: true }
+   });
+
+   // Encrypt data before storing
+   const userData = {
+       id: 'user_1',
+       name: 'John Doe',
+       email: 'john@example.com',
+       password: 'secret123'
+   };
+   
+   const encrypted = db.encryptFieldNames('users', userData);
+   // Store 'encrypted' to this file
+
+   // Decrypt when reading
+   const decrypted = db.decryptFieldNames('users', encrypted);
+   // Now you have readable data
+
+5. BACKUP RECOMMENDATIONS
+   - Regular backups of db_json folder
+   - Keep encryption keys safe
+   - Document schema changes
+   - Version control schema definitions
+*/

@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "extensions": [],
+  "packages": {
+    "php": {
+      "composer": true,
+      "installed": []
+    },
+    "javascript": {
+      "npm": true,
+      "installed": []
+    }
+  },
+  "autoloader": "vendor/autoload.php"
+}

@@ -1,0 +1,111 @@
+{
+  "application": {
+    "name": "EtherMVC",
+    "version": "1.0.0",
+    "environment": "production",
+    "debug_mode": true
+  },
+
+  "features": {
+    "modern_routing": {
+      "enabled": true,
+      "name": "EtherChemistry Modern Routing",
+      "description": "Modern async routing with advanced features (ONLY METHOD SUPPORTED)"
+    },
+    "encryption": {
+      "enabled": true,
+      "name": "AES-256 Encryption",
+      "description": "Data encryption and security"
+    },
+    "validation": {
+      "enabled": true,
+      "name": "Input Validation",
+      "description": "XSS prevention and input validation"
+    },
+    "error_logging": {
+      "enabled": true,
+      "name": "Error Logging",
+      "description": "Automatic error logging to file"
+    },
+    "request_caching": {
+      "enabled": true,
+      "name": "Request Caching",
+      "description": "Cache API responses"
+    }
+  },
+
+  "database": {
+    "primary": "json",
+    "options": ["json", "mysql"],
+    "json": {
+      "enabled": true,
+      "encryption": "chimera",
+      "path": "Data/db.json"
+    },
+    "mysql": {
+      "enabled": false,
+      "host": "localhost",
+      "port": 3306,
+      "database": "ethermvc",
+      "username": "root",
+      "password": ""
+    }
+  },
+
+  "security": {
+    "csrf_protection": true,
+    "xss_prevention": true,
+    "sql_injection_prevention": true,
+    "encryption_algorithm": "AES-256",
+    "hash_algorithm": "SHA256"
+  },
+
+  "vendor": {
+    "auto_discover": true,
+    "directories": ["vendor/php", "vendor/js"],
+    "allow_custom": true
+  },
+
+  "ui": {
+    "theme": "default",
+    "sidebar_enabled": true,
+    "navbar_enabled": true,
+    "page_transitions": true,
+    "animations": true
+  },
+
+  "api": {
+    "rate_limiting": false,
+    "cors_enabled": true,
+    "json_pretty_print": true,
+    "timeout_ms": 5000
+  },
+
+  "performance": {
+    "enable_compression": true,
+    "min_js_css": true,
+    "cache_static_files": true,
+    "cache_duration_ms": 3600000
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "output_file": "docs/logs/app.log",
+    "max_size_mb": 10,
+    "archive_old_logs": true
+  },
+
+  "app_generation": {
+    "enabled": true,
+    "routing_system": "modern_only",
+    "description": "Only EtherChemistry modern routing is supported",
+    "test_mode": true,
+    "autodelete_on_close": true,
+    "default_theme": "theme1",
+    "password_protected": true,
+    "encryption_required": true,
+    "immutable_after_generation": true,
+    "desktop_app_support": true
+  }
+}

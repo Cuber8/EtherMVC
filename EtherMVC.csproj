@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>EtherMVC</AssemblyName>
+    <RootNamespace>EtherMVC</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>EtherMVC Team</Authors>
+    <Company>EtherMVC</Company>
+    <Product>EtherMVC Framework</Product>
+    <Description>A secure, lightweight framework for web and application development</Description>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishTrimmed>true</PublishTrimmed>
+    <!-- Note: For EXE icons, use .ICO format. PNG is stored in Asset/icon.png for app branding. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add any NuGet dependencies here if needed -->
+  </ItemGroup>
+
+</Project>

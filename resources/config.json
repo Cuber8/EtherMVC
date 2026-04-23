@@ -1,0 +1,57 @@
+{
+  "system": {
+    "name": "EtherMVC",
+    "version": "1.0.0",
+    "type": "website",
+    "environment": "development"
+  },
+  "webserver": {
+    "enabled": true,
+    "port": 8080,
+    "host": "Etherhost",
+    "autoOpenBrowser": true,
+    "enableHttp": true,
+    "enableHttps": false,
+    "certificatePath": ""
+  },
+  "security": {
+    "enabled": true,
+    "encryptionMethod": "AES-256",
+    "enableCors": true,
+    "corsOrigin": "localhost",
+    "enableRateLimit": true,
+    "rateLimitRequests": 100,
+    "rateLimitWindow": 60000,
+    "enableCsrfProtection": true,
+    "enableInputValidation": true
+  },
+  "database": {
+    "type": "modern",
+    "engine": "json",
+    "encryption": "chimera",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "",
+    "defaultDatabase": "ethermvc"
+  },
+  "view": {
+    "theme": "theme1",
+    "errorConsoleEnabled": true,
+    "sanitizeHtml": true,
+    "preventXss": true,
+    "hideSensitiveData": true
+  },
+  "assets": {
+    "cdnEnabled": false,
+    "minify": true,
+    "optimizeImages": true
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "logToFile": true,
+    "logPath": "./Logs/",
+    "maxFileSize": "10MB"
+  }
+}

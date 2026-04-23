@@ -1,0 +1,9 @@
+[2026-04-20 22:01:30.788] [WebServer] Log file initialized: C:\Users\Kazuma\Desktop\EtherMVC\docs\logs\webserver_2026-04-20_22-01-30.log
+[2026-04-20 22:01:30.794] [WebServer] Initializing server on Etherhost:8080
+[2026-04-20 22:01:30.797] [WebServer] Root path: C:\Users\Kazuma\Desktop\EtherMVC
+[2026-04-20 22:01:30.797] [WebServer] View path: C:\Users\Kazuma\Desktop\EtherMVC\View
+[2026-04-20 22:01:30.812] [WebServer] Adding listener prefix: http://localhost:8080/
+[2026-04-20 22:01:30.835] ✅ [WebServer] Server started successfully!
+[2026-04-20 22:01:30.835] 🌐 [WebServer] Access URL: http://Etherhost:8080/
+[2026-04-20 22:01:30.836] 📝 [WebServer] Press Ctrl+C in this window to stop the server
+[2026-04-20 22:01:31.366] 🌐 [Browser] Opening: http://localhost:8080/

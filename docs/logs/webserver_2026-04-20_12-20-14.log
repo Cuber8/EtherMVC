@@ -1,0 +1,23 @@
+[2026-04-20 12:20:14.757] [WebServer] Log file initialized: C:\Users\Kazuma\Desktop\EtherMVC\docs\logs\webserver_2026-04-20_12-20-14.log
+[2026-04-20 12:20:14.761] [WebServer] Initializing server on Etherhost:8080
+[2026-04-20 12:20:14.762] [WebServer] Root path: C:\Users\Kazuma\Desktop\EtherMVC
+[2026-04-20 12:20:14.762] [WebServer] View path: C:\Users\Kazuma\Desktop\EtherMVC\View
+[2026-04-20 12:20:14.778] [WebServer] Adding listener prefix: http://localhost:8080/
+[2026-04-20 12:20:14.804] ✅ [WebServer] Server started successfully!
+[2026-04-20 12:20:14.804] 🌐 [WebServer] Access URL: http://Etherhost:8080/
+[2026-04-20 12:20:14.806] 📝 [WebServer] Press Ctrl+C in this window to stop the server
+[2026-04-20 12:20:15.361] 🌐 [Browser] Opening: http://localhost:8080/
+[2026-04-20 12:20:16.049] [Request] GET /index.html
+[2026-04-20 12:20:16.073] ✅ [Response] 200 OK - /index.html
+[2026-04-20 12:20:16.149] [Request] GET /bootstrap.css
+[2026-04-20 12:20:16.151] ❌ [Response] 404 Not Found - /bootstrap.css
+[2026-04-20 12:20:16.152] [Request] GET /theme/theme1/rendering.css
+[2026-04-20 12:20:16.153] ❌ [Response] 404 Not Found - /theme/theme1/rendering.css
+[2026-04-20 12:20:16.154] [Request] GET /Script.js
+[2026-04-20 12:20:16.160] [Request] GET /index.jsx
+[2026-04-20 12:20:16.164] ✅ [Response] 200 OK - /Script.js
+[2026-04-20 12:20:16.167] ✅ [Response] 200 OK - /index.jsx
+[2026-04-20 12:20:16.213] [Request] GET /bootstrap.css
+[2026-04-20 12:20:16.214] ❌ [Response] 404 Not Found - /bootstrap.css
+[2026-04-20 12:20:16.219] [Request] GET /theme/theme1/rendering.css
+[2026-04-20 12:20:16.220] ❌ [Response] 404 Not Found - /theme/theme1/rendering.css

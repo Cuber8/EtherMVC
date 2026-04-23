@@ -1,0 +1,19 @@
+[2026-04-21 14:20:34] [WebServer] Initializing server on EtherSite:8080
+[2026-04-21 14:20:34] [WebServer] Root path: C:\Users\Kazuma\Desktop\EtherMVC
+[2026-04-21 14:20:34] [WebServer] View path: C:\Users\Kazuma\Desktop\EtherMVC\View
+[2026-04-21 14:20:34] [WebServer] Adding listener prefix: http://localhost:8080/
+[2026-04-21 14:20:34] [WebServer] Attempting to start HttpListener...
+[2026-04-21 14:20:34] [WebServer] HttpListener started successfully
+[2026-04-21 14:20:34] ✅ [WebServer] Server started successfully!
+[2026-04-21 14:20:34] 🌐 [WebServer] Access EtherSite at: EtherSite:8080
+[2026-04-21 14:20:34] 📝 [WebServer] Waiting for requests...
+[2026-04-21 14:20:35] 🌐 [Browser] Opening: EtherSite:8080
+[2026-04-21 14:20:36] [Request] GET /Index.html
+[2026-04-21 14:20:36] ✅ [Response] 200 OK - /Index.html
+[2026-04-21 14:20:36] [Request] GET /bootstrap.css
+[2026-04-21 14:20:36] ✅ [Response] 200 OK - /bootstrap.css
+[2026-04-21 14:20:36] [Request] GET /Script.js
+[2026-04-21 14:20:36] ✅ [Response] 200 OK - /Script.js
+[2026-04-21 14:20:36] [Request] GET /theme/theme1/rendering.css
+[2026-04-21 14:20:36] ✅ [Response] 200 OK - /theme/theme1/rendering.css
+[2026-04-21 14:20:46] 🛑 [WebServer] Server stopping...

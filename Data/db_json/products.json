@@ -1,0 +1,25 @@
+// Example product database schema for demonstration
+{
+  "metadata": {
+    "schema": "products",
+    "encrypted": false,
+    "created": "2026-04-20T00:00:00Z",
+    "version": "1.0"
+  },
+  "records": [
+    {
+      "id": "prod_001",
+      "name": "Premium Plan",
+      "price": 99.99,
+      "category": "subscription",
+      "active": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Basic Plan",
+      "price": 29.99,
+      "category": "subscription",
+      "active": true
+    }
+  ]
+}

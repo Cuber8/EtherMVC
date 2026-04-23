@@ -1,0 +1,52 @@
+{
+  "homunculus": {
+    "version": "1.0.0",
+    "name": "Homunculus - .NET SDK Replacement",
+    "description": "Runtime environment for EtherMVC desktop applications without .NET SDK",
+    "author": "EtherMVC Framework",
+    
+    "features": {
+      "app_launching": {
+        "enabled": true,
+        "description": "Launch desktop applications"
+      },
+      "dependency_management": {
+        "enabled": true,
+        "description": "Manage application dependencies"
+      },
+      "error_handling": {
+        "enabled": true,
+        "description": "Comprehensive error tracking and logging"
+      },
+      "resource_cleanup": {
+        "enabled": true,
+        "description": "Automatic cleanup of test databases and resources"
+      },
+      "extension_integration": {
+        "enabled": true,
+        "description": "Support for BindingVow and other extensions"
+      }
+    },
+
+    "runtime": {
+      "target_framework": ".NET 6.0",
+      "min_memory_mb": 256,
+      "recommended_memory_mb": 512,
+      "platform_support": ["Windows", "Linux", "macOS"]
+    },
+
+    "logging": {
+      "enabled": true,
+      "level": "info",
+      "output_dir": "Logs",
+      "max_log_size_mb": 10,
+      "auto_cleanup_days": 30
+    },
+
+    "security": {
+      "require_config": true,
+      "validate_structure": true,
+      "verify_launcher": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+[2026-04-20 12:19:41.554] [WebServer] Log file initialized: C:\Users\Kazuma\Desktop\EtherMVC\docs\logs\webserver_2026-04-20_12-19-41.log
+[2026-04-20 12:19:41.567] [WebServer] Initializing server on Etherhost:8080
+[2026-04-20 12:19:41.568] [WebServer] Root path: C:\Users\Kazuma\Desktop\EtherMVC
+[2026-04-20 12:19:41.568] [WebServer] View path: C:\Users\Kazuma\Desktop\EtherMVC\View
+[2026-04-20 12:19:41.583] [WebServer] Adding listener prefix: http://localhost:8080/
+[2026-04-20 12:19:41.606] ✅ [WebServer] Server started successfully!
+[2026-04-20 12:19:41.607] 🌐 [WebServer] Access URL: http://Etherhost:8080/
+[2026-04-20 12:19:41.615] 📝 [WebServer] Press Ctrl+C in this window to stop the server
+[2026-04-20 12:19:42.191] 🌐 [Browser] Opening: http://localhost:8080/
+[2026-04-20 12:19:42.913] [Request] GET /index.html
+[2026-04-20 12:19:42.936] ✅ [Response] 200 OK - /index.html
+[2026-04-20 12:19:42.991] [Request] GET /bootstrap.css
+[2026-04-20 12:19:42.993] ❌ [Response] 404 Not Found - /bootstrap.css
+[2026-04-20 12:19:42.994] [Request] GET /theme/theme1/rendering.css
+[2026-04-20 12:19:42.998] ❌ [Response] 404 Not Found - /theme/theme1/rendering.css
+[2026-04-20 12:19:42.999] [Request] GET /Script.js
+[2026-04-20 12:19:43.004] [Request] GET /index.jsx
+[2026-04-20 12:19:43.004] ✅ [Response] 200 OK - /Script.js
+[2026-04-20 12:19:43.006] ✅ [Response] 200 OK - /index.jsx
+[2026-04-20 12:19:43.040] [Request] GET /bootstrap.css
+[2026-04-20 12:19:43.040] ❌ [Response] 404 Not Found - /bootstrap.css
+[2026-04-20 12:19:43.055] [Request] GET /theme/theme1/rendering.css
+[2026-04-20 12:19:43.056] ❌ [Response] 404 Not Found - /theme/theme1/rendering.css
+[2026-04-20 12:19:43.193] [Request] GET /favicon.ico
+[2026-04-20 12:19:43.194] ❌ [Response] 404 Not Found - /favicon.ico
+[2026-04-20 12:19:59.708] ⚠️  [WebServer] Context error: One or more errors occurred. (L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.)
+[2026-04-20 12:19:59.709] 🛑 [WebServer] Server stopped
